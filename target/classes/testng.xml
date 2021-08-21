@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoWebShop suite">
+  <test verbose="2" name="Demowebshop">
+    <classes>
+      
+      <class name="com.WebShop.qa.testcases.LoginpageTest"/>
+      <class name="com.WebShop.qa.testcases.WelcomepageTest"/>
+      <class name="com.WebShop.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
